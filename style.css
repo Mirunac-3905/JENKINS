@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.scoreboard {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.scoreboard h1 {
+  text-align: center;
+  color: #004080;
+}
+
+.score-section,
+.players-section,
+.bowler-section {
+  margin-top: 20px;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.overs,
+.wickets {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.players-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.players-section li {
+  margin-bottom: 5px;
+}
